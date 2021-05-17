@@ -9,8 +9,8 @@ classes: wide
 
 1. Get the app
     <div>
-      <img src="/assets/images/apple-store.png" width="150px" />
-      <img src="/assets/images/google-play.png" width="150px" />
+      <img src="./assets/images/apple-store.png" width="150px" />
+      <img src="./assets/images/google-play.png" width="150px" />
     </div>
 
 2. Establish your identity
