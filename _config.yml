@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 exclude:
-  - verifiable-contractor/_config.yml
+  - verifiable-contractor
+include:
+  - verifiable-contractor/_site
