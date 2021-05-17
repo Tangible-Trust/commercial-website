@@ -1,3 +1,12 @@
+
+.middle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
 .drop-zone {
   max-width: 200px;
   height: 200px;
@@ -29,6 +38,59 @@
 .visible {
   display: block;
 }
+
+.sig-display {
+  max-width: 300px;
+  padding: 25px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+.sig-content {
+  padding: 5px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-family: "Courier", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.vc-display {
+  max-width: 300px;
+  padding: 25px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+.vc-content {
+  padding: 5px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-family: "Courier", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
 .drop-zone__thumb {
   width: 100%;
   height: 100%;

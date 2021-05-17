@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Drag and Drop File Upload</title>
+  <title>ICL Verification</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
+  <div class="middle">
     <div class="drop-zone" id="upload">
-      <span class="drop-zone__prompt">Drop file here or click to upload</span>
+      <span class="drop-zone__prompt">Drop ICL Lab Certificate here or click to upload</span>
       <input type="file" name="myFile" class="drop-zone__input">
     </div>
 
     <div id="outputok" class="invisible">
-      VC
-      <pre>
-        bunch of stuff
-      </pre>
-      Signature
-      <pre>
-        bunch of stuff
-      </pre>
+      <div class="vc-display">
+        VC
+        <div id="vc-content" class="vc-content">
+        </div>
+      </div>
+      <div class="sig-display">
+        Signature
+        <div id="sig-content" class="sig-content">
+        </div>
+      </div>
     </div>
 
     <div id="outputnotok" class="invisible">

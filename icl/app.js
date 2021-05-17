@@ -39,6 +39,11 @@ function receiveInput(dropZoneElement, file) {
   elt.style.display = "none";
   elt = document.getElementById("outputok")
   elt.style.display = "block";
+
+  elt = document.getElementById("vc-content")
+  elt.innerHTML = "VC goes here"
+  elt = document.getElementById("sig-content")
+  elt.innerHTML = "signature goes here"
 }
 
 /**
