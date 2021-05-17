@@ -18,7 +18,14 @@ classes: wide
   * if this is your first time, you'll need some documents, like a passport
     or driver's license.
 
-3. Connect with a company or set up a new company
+3. Sign the Governance Framework
+  * Verifiable Contractor is an active trust network, with terms and conditions
+    managed by the community, for the community.  This is like signing the
+    terms and conditions and accepting the privacy policy, except that you get
+    to be a part of the process.  Signing the Governance Framework enables you
+    to join the community, to provide verifiable data, and to verify other's data.
+
+4. Connect with a company or set up a new company
   * If you are an employee of a company using Verifiable Contractor, you
     can locate your company and tap 'request to connect'
   * If you are the first user for your company, simply tap 'set up a new company.'
