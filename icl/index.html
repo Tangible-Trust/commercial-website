@@ -1,36 +1,19 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>ICL Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<head>
-  <title>ICL Verification</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div class="middle">
-    <div class="drop-zone" id="upload">
-      <span class="drop-zone__prompt">Drop ICL Lab Certificate here or click to upload</span>
-      <input type="file" name="myFile" class="drop-zone__input">
+  <body>
+    <div class="index-middle">
+      <h1>Please choose the type of file you would like to upload</h1>
+      <ul>
+        <li><a href="./examine-pdf.html">A PDF</a></li>
+        <li><a href="./verify-vc.html">A W3C Verifiable Credential</a></li>
+      </ul>
     </div>
-
-    <div id="outputok" class="invisible">
-      <div class="vc-display">
-        VC
-        <div id="vc-content" class="vc-content">
-        </div>
-      </div>
-      <div class="sig-display">
-        Signature
-        <div id="sig-content" class="sig-content">
-        </div>
-      </div>
-    </div>
-
-    <div id="outputnotok" class="invisible">
-      Unsigned PDF that does not contain a VC
-    </div>
-  </div>
-
-  <script src="app.js"></script>
-</body>
+  </body>
+</html>

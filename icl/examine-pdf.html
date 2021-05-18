@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ICL Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="middle">
+    <div><a href="./index.html"><button>Home</button></a></div>
+    <div class="drop-zone" id="upload">
+      <span class="drop-zone__prompt">Drop ICL Lab Certificate here or click to upload</span>
+      <input type="file" name="myFile" class="drop-zone__input">
+    </div>
+
+    <div id="outputok" class="invisible">
+      <div class="vc-display">
+        <h3>Verifiable Credential</h3>
+        <div id="vc-content" class="vc-content">
+        </div>
+        <a href="https://www.w3.org/2018/credentials/v1">View Schema</a>
+        <div>
+          <button onClick='saveVC(event)'>Save VC</button>
+        </div>
+      </div>
+      <div class="sig-display">
+        <h3>Signature extracted from PDF</h3>
+        <p>This was generated using the private key from ICL, kept in AWS KMS.</p>
+        <div id="sig-content" class="sig-content">
+        </div>
+      </div>
+    </div>
+
+    <div id="outputnotok" class="invisible">
+      Unsigned PDF that does not contain a VC
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>

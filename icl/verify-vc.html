@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ICL Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="middle">
+    <div><a href="./index.html"><button>Home</button></a></div>
+    <h3>Verifying VC</h3>
+    <ul>
+      <li>Upload the VC</li>
+      <li>Upload the Public Key</li>
+    </ul>
+    <div class="drop-zone" id="upload">
+      <span class="drop-zone__prompt">Drop Extracted VC here or click to upload VC</span>
+      <input type="file" name="myFile" class="drop-zone__input">
+    </div>
+
+    <div id="outputok" class="invisible">
+      <h3>Paste the Public Key PEM data here</h3>
+      <p>Note: normally this is fetched automatically from the registry</p>
+      <div>
+        <textarea rows="25" cols="80" class="pem">
+        </textarea>
+      </div>
+      <button onClick='verify(event)'>Verify</button>
+    </div>
+
+    <div id="outputnotok" class="invisible">
+      This is not a VC
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>

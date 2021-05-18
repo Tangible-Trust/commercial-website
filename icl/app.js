@@ -34,6 +34,9 @@ document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
   });
 });
 
+function verify(event) {
+  window.alert("Verified!")
+}
 function receiveInput(dropZoneElement, file) {
   elt = document.getElementById("upload")
   elt.style.display = "none";
